@@ -72,14 +72,15 @@
             "category":["봇"],
             "description":"<h1> HTML 형식으로 입력해주세요 </h1>",
             "flags":1,
-            "homepage":"924284360562208809",
+            "homepage":"홈페이지 URL",
             "invite":"13212",
             "like":0,
             "owners":["406815674539835402"],
-            "prefix":"123",
-            "sortdescription":"924284360562208809",
+            "prefix":"!",
+            "sortdescription":"짧은 설명",
             "status":0,
-            "supportserver":"123123"
+            "supportserver":"서포트 서버 주소",
+            "server": "10",
         },
         "owners": [
             {
