@@ -18,6 +18,36 @@
 
 ---
 
+### 서버 수 업데이트 하기
+
+`POST /bot/{id}/server`
+
+##### 요청 예시
+
+###### Headers
+| Header | Description |
+|:---:|:---:|
+| `authentication` | 아카이브 토큰 |
+
+토큰은 [여기](https://archiver.me/botdash)에서 발급받으실 수 있습니다
+
+###### Body
+```
+{
+  "server": "10"
+}
+```
+
+#### 서버 수 업데이트 하기 RateLimit
+
+`3회/분`
+
+| Header | Description |
+|:---:|:---:|
+| `X-RateLimit-Limit` | 사용 가능한 요청 횟수 |
+| `X-RateLimit-Remaining` | 남은 요청 가능 횟수 | 
+---
+
 ### 서버 정보 가져오기
 
 `GET /guild/{id}`
