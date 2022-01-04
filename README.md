@@ -1,6 +1,6 @@
 # 아카이브 API 문서
 
-[홈페이지로 돌아가기](https://archiver.me/)
+[홈페이지로 돌아가기](https://archiver.me/)\
 [JS/TS 서버수 업데이트 SDK](https://github.com/Archive-Discord/Javascript-SDK)
 
 ### BASE URL
